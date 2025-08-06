@@ -1,0 +1,46 @@
+style1.css
+body{
+  margin: 0;
+  background-color: #c8fafb;
+}
+header {
+  background-color: #004143;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.world {
+  text-shadow: 0 2px 10px #00655d;
+  font-family: forte, script;
+  font-size: 50px;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ font-size: 30px;
+  font-family: gabriola, serif;
+  text-shadow: 0 2px 10px #033b00;
+}
+nav {
+  margin-top: 10px;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+.about{
+    padding: 20px;
+    margin: 50px;
+    background-color: #409a8f;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #b6e9fc;
+}
+h2{
+     font-size: 30px;
+}
