@@ -1,0 +1,134 @@
+style.css
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #dad2d2;
+  
+}
+
+header {
+  background-color: #001089;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.world {
+  text-shadow: 0 2px 10px #002465;
+  font-family: forte, script;
+  font-size: 50px;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ font-size: 30px;
+  font-family: gabriola, serif;
+  text-shadow: 0 2px 10px #bcd4ff;
+}
+h2{
+    font-family: chiller, script;
+    font-size: 30px;
+}
+nav {
+  margin-top: 10px;
+}
+p{
+    font-size: 20px;
+    line-height: 1.6;
+    color: #00193c;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+li{
+     font-size: 20px;
+    line-height: 1.6;
+    color: #00193c;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.about{
+    padding: 20px;
+    margin: 50px;
+    background-color: #7484ff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #006084;
+
+}
+.news{
+    padding: 20px;
+    margin: 50px;
+    background-color: #7484ff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #006084;
+
+}
+.player{
+    padding: 40px;
+    margin: 10px;
+    background-color: #01a1f8;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    box-shadow: 0 2px 10px #7dd7f8;
+}
+.fam
+{
+    text-shadow: 0 2px 10px #7dd7f8;
+    color: rgb(0, 43, 69);
+}
+.ren
+{
+    text-shadow: 0 2px 10px #7dd7f8;
+    color: rgb(0, 35, 57);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.famous-players 
+{
+   padding: 20px;
+    margin: 50px;
+    border-radius: 10px;
+    text-shadow: 0 2px 10px #7dd7f8;
+}
+.players 
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  margin: 50px;
+  border-radius: 10px;
+}
+footer 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    background-color: #0f0141;
+    color:rgb(183, 224, 250);
+    text-align: center;
+}
+footer a 
+{
+    color: #1d76fc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+footer a:hover 
+{
+    color: #9edaff;
+    text-decoration: underline;
+}
+.za{
+  color:rgb(183, 224, 250);
+}
